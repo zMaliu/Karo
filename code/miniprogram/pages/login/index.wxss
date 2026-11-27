@@ -1,0 +1,11 @@
+.login { padding: 140rpx 40rpx 0; }
+.brand { text-align: center; margin-bottom: 64rpx; }
+.logo { width: 112rpx; height: 112rpx; line-height: 112rpx; margin: 0 auto 24rpx; border-radius: 28rpx; background: #2563eb; color: #fff; font-size: 56rpx; font-weight: 700; }
+.title { font-size: 44rpx; font-weight: 600; margin-bottom: 8rpx; }
+.field { display: flex; align-items: center; border-bottom: 1rpx solid #e5e7eb; padding: 24rpx 0; }
+.label { width: 120rpx; color: #6b7280; }
+.input { flex: 1; font-size: 30rpx; }
+.send { margin: 0 0 0 16rpx; }
+.dev { margin-top: 16rpx; color: #2563eb; }
+.submit { margin-top: 40rpx; }
+.agree { display: flex; align-items: center; margin-top: 24rpx; font-size: 22rpx; }

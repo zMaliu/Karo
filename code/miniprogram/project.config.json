@@ -1,0 +1,13 @@
+{
+  "description": "Karo 小程序骨架",
+  "appid": "touristappid",
+  "projectname": "karo",
+  "compileType": "miniprogram",
+  "libVersion": "3.0.0",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true
+  }
+}

@@ -1,0 +1,12 @@
+.head { display: flex; align-items: center; }
+.avatar { width: 112rpx; height: 112rpx; line-height: 112rpx; text-align: center; border-radius: 50%; background: #dbeafe; color: #2563eb; font-size: 48rpx; font-weight: 600; margin-right: 24rpx; }
+.info { flex: 1; }
+.name { font-size: 36rpx; font-weight: 600; margin-bottom: 4rpx; }
+.section-title { font-size: 30rpx; font-weight: 600; margin-bottom: 16rpx; }
+.edit-row { display: flex; align-items: center; padding: 16rpx 0; }
+.input { flex: 1; border-bottom: 1rpx solid #e5e7eb; padding: 12rpx 0; }
+.mini { width: 140rpx; margin: 0 0 0 20rpx; }
+.tags { display: flex; flex-wrap: wrap; gap: 12rpx; margin-bottom: 12rpx; }
+.tag { background: #eef2ff; color: #2563eb; border-radius: 8rpx; padding: 6rpx 16rpx; font-size: 22rpx; }
+.version { margin-top: 8rpx; }
+.logout { text-align: center; color: #dc2626; }

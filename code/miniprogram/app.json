@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/timer/index",
+    "pages/twin/index",
+    "pages/brain/index",
+    "pages/solve/index",
+    "pages/palace/index",
+    "pages/me/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#111827",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Karo",
+    "backgroundColor": "#f5f6fa",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#6b7280",
+    "selectedColor": "#2563eb",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/twin/index", "text": "学伴" },
+      { "pagePath": "pages/brain/index", "text": "大脑" },
+      { "pagePath": "pages/solve/index", "text": "解题" },
+      { "pagePath": "pages/palace/index", "text": "宫殿" },
+      { "pagePath": "pages/me/index", "text": "我的" }
+    ]
+  },
+  "style": "v2"
+}

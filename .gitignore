@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.db
+*.sqlite3
+
+# 环境与密钥（勿提交）
+.env
+.env.*
+*.pem
+*.key
+
+# 系统与编辑器
+.DS_Store
+.idea/
+.vscode/
+
+# 小程序依赖（无 npm 构建，占位）
+miniprogram/node_modules/
+
+# 导出物
+*.log
