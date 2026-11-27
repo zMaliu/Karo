@@ -1,15 +1,10 @@
-# Karo API 索引（/api/v1 · 唯一真源 · 共 53 个端点）
+# Karo API 契约（/api/v1 · 唯一真源 · 53 端点）
 
-> 框架只声明接口与契约：**53 个端点当前全部返回 501 NOT_IMPLEMENTED**，message 形如
-> `twin POST /config：负责人 B / Sprint W3 / 功能 TWN-02 / 规格书 §3 TWN-02`。
-> 业务由团队按 `功能实现规格书.md` 逐条实现；LOS 总智能体本期不做（后续单独立项）。
+> 当前全部返回 501；message 含「负责人 / Sprint / 功能号 / 规格书章节」。
 
 ## 通用约定
-- 必带请求头 `X-Client-Timezone: Asia/Shanghai`（缺失 400 TIMEZONE_REQUIRED，非法 400 TIMEZONE_INVALID）。
-- 成功 `{data, meta}`；失败 `{error:{code,message}, meta}`；鉴权 `Authorization: Bearer <token>`。
-- 仅 `account/otp/send`、`account/login` 公开；其余需登录。userId 只从 JWT 取，越权/不存在 404。
-- 功能编号 = 模块前缀 + 规格书编号；规格书章节见 `功能实现规格书.md` §1–§6。
-- Sprint 标「后续」的是规格书里 ⏳ 的功能，本期不实现（接口仍 501）。
+- 必带 `X-Client-Timezone`（缺失/非法 400）；成功 `{data,meta}`，失败 `{error,meta}`；除 otp/send、login 外均需 `Authorization: Bearer`。
+- userId 只从 JWT 取；资源越权或不存在 404；标「后续」的接口本期不实现。
 
 ## account 账号与画像（8 · B · W1-W2）
 - ★ ACC-01 POST /account/otp/send — 发送验证码（Sprint W1 / 规格书 §1 ACC-01）
